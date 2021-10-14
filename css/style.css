@@ -16,16 +16,51 @@
 }
 
 header {
-    height: 60px;
+    height: 80px;
     background-color: rgb(241, 10, 191);
     margin: 10px 0;
 }
 
-main{
+section{
     margin: 10px 0;
 }
 
 .big_picture {
-    height: 200px;
+    height: 250px;
     background-color:rgb(202, 202, 110) ;
 }
+
+.section_menu {
+    background-color: blue;
+}
+
+.header_main {
+    background-color: lightblue;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    height: 330px;
+    background-color: lightblue;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.menu.right, 
+.menu.left {
+    width: 25%;
+}
+
+.menu.center{
+    width: calc( 50% - 20px);
+    margin: 0 10px;
+}
+
+footer{
+    background-color: purple;
+    height: 40px;
+}
+
+
+
