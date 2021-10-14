@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(241, 10, 191);
+    margin: 10px 0;
+}
+
+main{
+    margin: 10px 0;
+}
+
+.big_picture {
+    height: 200px;
+    background-color:rgb(202, 202, 110) ;
+}
