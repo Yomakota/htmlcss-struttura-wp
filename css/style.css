@@ -21,7 +21,7 @@ header {
     margin: 10px 0;
 }
 
-section{
+section {
     margin: 10px 0;
 }
 
@@ -52,12 +52,12 @@ section{
     width: 25%;
 }
 
-.menu.center{
+.menu.center {
     width: calc( 50% - 20px);
     margin: 0 10px;
 }
 
-footer{
+footer {
     background-color: purple;
     height: 40px;
 }
