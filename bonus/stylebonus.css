@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    background-color: black;
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Apple chancery, cursive;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px 0;
+    height: 600px;
+    width: 100%;
+}
+
+img {
+    float: left;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+.text{
+    background-color: white;
+}
+
+
+.articles {
+    height: 400px;
+    background-color: lightgrey;
+    float: left;
+    margin:10px 5px;
+    padding: 10px;
+}
+
+
+.col {
+    float: left;
+    height: 100%;
+    width: calc( 100% / 5 - 20px);
+    margin: 0 10px;
+    background-color: white;
+}
+
+footer {
+    color: grey;
+    background-color:pink;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
